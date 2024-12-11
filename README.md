@@ -54,7 +54,7 @@ Après avoir répondu à ces deux questions, votre projet sera créé à la raci
 
 ⚠️ Attention lors de la création du dossier, le script initialise le projet avec un "git init" pour mettre en place une configuration qui permet de valider la présence du fichier '.env' dans le fichier '.gitignore' ! Ainsi si vous souahitez rattacher votre projet à un repo Github inutile faire un git init, il est déjà fait pour vous. ⚠️
 
-Voici la configuration mise en place pour la présence du fichier '.env' :
+Voici la configuration mise en place pour vérifier la présence du fichier '.env' :
 
 ```bash
 # Configure Git hook
