@@ -1,8 +1,8 @@
-# 🚀 REACT-TAILWIND-TEMPLATE
+# 📦 REACT-TAILWIND-TEMPLATE
 
 ### 🎉 Bienvenue, vous trouverez ici un template react-vite préconfiguré avec tailwind, eslint et quelques fonctions/scripts utiles.
 
-#### L'objectif de ce dernier est de vous faire gagnez du temps et évitez d'avoir à configurer vous même votre projet.
+#### L'objectif ici va être de copié tout ce qui se trouve dans ce template afin de le coller dans un dossier, dossier qui vous servira à démarer un nouveau projet. Ce template a donc pour but de vous faire gagner du temps, de vous evitez de devoir configurer eslint/tailwind...
 
 _Pour cela ce dernier comporte :_
 
