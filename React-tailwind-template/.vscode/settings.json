@@ -1,0 +1,30 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.showKeywords": false
+  },
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "USE_GITIGNORE": true
+  },
+  "javascript.validate.enable": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "markdown": "html",
+    "ejs": "html"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.words": [
+    "airbnb"
+  ]
+}
