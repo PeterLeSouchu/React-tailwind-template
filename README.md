@@ -7,13 +7,17 @@
 _Pour cela il comporte :_
 
 - ✍️ Une configuration Tailwind CSS avec 3 fonts par défaut.
+- 📏 Une configuration ES-Lint Airbnb.
 - 📅 Une fonction "FormDate" qui permet de convertir un timestamp en date.
 - 🔄 Un composant Loader par défaut (spinner).
 - ⬆️ Une fonction "ScrollToTop" permettant de scroll en haut de page (utile quand on utilise react-router).
 - 🧹 Un script permettant d'effacer tous les console.log
 - ✅ Un script permettant de vérifier la présence du fichier .env
   (s'il y en a un) dans le fichier .gitignore avant le commit, ce pour éviter de rendre public des donnés privées (car un oubli arrive très vite et ça peut être compliqué d'effacer un fichier .env de tous nos commit sur github).
+<<<<<<< HEAD
 - 📏 Une configuration ES-Lint.
+=======
+>>>>>>> 4ed97c301bdc91300836e58587c7c61b2e10f5c7
 
 Pour créez un template, il vous faudra d'abord installer pnpm si ce n'est pas déja fait car il fonctionne avec ce gestionnaire de paquets :
 
@@ -29,7 +33,7 @@ git clone git@github.com:PeterLeSouchu/React-tailwind-template.git
 
 Puis ouvrez le sur votre ordinateur.
 
-Mettez vous à la racine du projet, c'est à dire au dossier contenant le dossier intitulé "Reac-tailwind-template". C'est tès important de se mettre à la racine et non pas dans le dossier précédemment cité, sinon le clonage ne fonctionnera pas.
+Placez-vous à la racine du projet, c'est-à-dire dans le dossier contenant le dossier "React-tailwind-template". Il est crucial de se positionner à la racine et non dans le dossier mentionné précédemment, sinon le clonage ne fonctionnera pas.
 
 Pour en être sur faite cette commande :
 
@@ -38,6 +42,7 @@ ls
 ```
 
 Si vous voyez "React-tailwind-template" alors vous êtes bien positionné.
+
 Après cela lancez la commande :
 
 ```bash
@@ -75,3 +80,5 @@ print_success "✓ Hook pre-commit configuré"
 ```
 
 Ce dernier se situe dans '.git/hooks/pre-commit' et intervient avant chaque commit.
+
+📌 Ce template utilise actuellement ESLint version 8.57.1. Cependant, une nouvelle version est sortie en 2024. Pour l'instant, la configuration reste basée sur cette version d'ESLint, mais dès que cela sera possible, une migration vers ESLint 9 avec la configuration Airbnb sera effectuée. Cette migration n'est pas réalisable pour le moment, car la configuration Airbnb ne prend pas encore en charge la dernière version d'ESLint. De plus, à l'avenir, le template sera plus flexible et vous permettra de choisir entre l'utilisation ou non d'ES-Lint pour votre projet.
