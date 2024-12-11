@@ -7,7 +7,7 @@
 _Pour cela il comporte :_
 
 - ✍️ Une configuration Tailwind CSS avec 3 fonts par défaut.
-- 📏 Une configuration ES-Lint Airbnb.
+- 📏 Une configuration ESLint Airbnb.
 - 📅 Une fonction "FormDate" qui permet de convertir un timestamp en date.
 - 🔄 Un composant Loader par défaut (spinner).
 - ⬆️ Une fonction "ScrollToTop" permettant de scroll en haut de page (utile quand on utilise react-router).
