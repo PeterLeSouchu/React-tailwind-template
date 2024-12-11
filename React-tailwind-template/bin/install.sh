@@ -183,10 +183,10 @@ print_success "✓ Hook pre-commit configuré"
 print_info "→ Installation des dépendances avec PNPM"
 pnpm install
 if [ $? -eq 0 ]; then
-  print_success "✓ Les dépendances sont installées"
+  print_success "✓ Les dépendances ont été installées"
 else
   print_error "❌ L'installation des dépendances a échoué."
   exit 1
 fi
 
-print_success "→ Votre projet est prêt, vous le trouverez dans '$TARGET_DIRECTORY'"
+print_success "→ Votre projet '$TARGET_DIRECTORY' est prêt, vous le trouverez à la racine de ce dossier"
