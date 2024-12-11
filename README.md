@@ -53,7 +53,7 @@ Il vous sera demandé deux choses :
 
 Après avoir répondu à ces deux questions, votre projet sera créé à la racine du dossier principal, il ne vous restera plus qu'a le déplacer si vous le souhaitez, afin de mieux vous organiser, et vous pourrez commencer à travailler dessus.
 
-⚠️ Attention lors de la création du dossier, le script initialise le projet avec un "git init" pour mettre en place une configuration qui permet de valider la présence du fichier '.env' dans le fichier '.gitignore' ! Ainsi si vous souahitez rattacher votre projet à un repo Github inutile faire un git init, il est déjà fait pour vous. ⚠️
+⚠️ Attention lors de la création du dossier, le script initialise le projet avec un "git init" pour mettre en place une configuration qui permet de valider la présence du fichier '.env' dans le fichier '.gitignore' ! Ainsi si vous souhaitez rattacher votre projet à un repo Github inutile faire un git init, il est déjà fait pour vous. ⚠️
 
 Voici la configuration mise en place pour vérifier la présence du fichier '.env' :
 
