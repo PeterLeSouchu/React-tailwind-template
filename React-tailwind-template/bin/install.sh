@@ -74,7 +74,7 @@ fi
 
 print_info "→ Copie des dossiers et des fichiers du template"
 shopt -s extglob
-rsync -av --quiet --exclude "INSTALL.md" --exclude ".git" --exclude "node_modules" \
+rsync -av --quiet --exclude "INSTALL.md" --exclude "bin" --exclude ".git" --exclude "node_modules" \
   ./React-tailwind-template/ "$TARGET_DIRECTORY"
 
 if [ $? -eq 0 ]; then
@@ -168,7 +168,10 @@ print_info "→ Configuration du hook pre-commit"
 cat <<EOF > .git/hooks/pre-commit
 #!/bin/bash
 if ! grep -qxF '.env' .gitignore; then
-  echo "❌ Le fichier '.env' n'est pas dans .gitignore !"
+ echo "❌ Le fichier '.env' n'est pas dans .gitignore !"
+  echo "→ ⚠⚠⚠⚠ Ajoutez '.env' dans le fichier '.gitignore' pour éviter de rendre public des informations sensibles. ⚠⚠⚠⚠"
+  echo "→ ⚠⚠⚠⚠ Puis faites la commande suivante : 'git rm --cached .env' sinon le .env sera push ⚠⚠⚠⚠"
+  echo "→ ⚠⚠⚠⚠ Ensuite vous pouvez de nouveau commit ⚠⚠⚠⚠"
   exit 1
 fi
 exit 0

@@ -50,3 +50,27 @@ Il vous sera demandé deux choses :
 - Si vous souhaitez utiliser react-router
 
 Après avoir répondu à ces deux questions, votre projet sera créé à la racine du dossier principal, il ne vous restera plus qu'a le déplacer si vous le souhaitez, afin de mieux vous organiser, et vous pourrez commencer à travailler dessus.
+
+⚠️ Attention lors de la création du dossier, le script initialise le projet avec un "git init" pour mettre en place une configuration qui permet de valider la présence du fichier '.env' dans le fichier '.gitignore' ! Ainsi si vous souahitez rattacher votre projet à un repo Github inutile faire un git init, il est déjà fait pour vous. ⚠️
+
+Voici la configuration mise en place pour la présence du fichier '.env' :
+
+```bash
+# Configure Git hook
+print_info "→ Configuration du hook pre-commit"
+cat <<EOF > .git/hooks/pre-commit
+#!/bin/bash
+if ! grep -qxF '.env' .gitignore; then
+ echo "❌ Le fichier '.env' n'est pas dans .gitignore !"
+  echo "→ ⚠⚠⚠⚠ Ajoutez '.env' dans le fichier '.gitignore' pour éviter de rendre public des informations sensibles. ⚠⚠⚠⚠"
+  echo "→ ⚠⚠⚠⚠ Puis faites la commande suivante : 'git rm --cached .env' sinon le .env sera push ⚠⚠⚠⚠"
+  echo "→ ⚠⚠⚠⚠ Ensuite vous pouvez de nouveau commit ⚠⚠⚠⚠"
+  exit 1
+fi
+exit 0
+EOF
+chmod +x .git/hooks/pre-commit
+print_success "✓ Hook pre-commit configuré"
+```
+
+Ce dernier se situe dans '.git/hooks/pre-commit' et intervient avant chaque commit.
