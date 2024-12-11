@@ -49,4 +49,4 @@ Il vous sera demandé deux choses :
 - Le nom que vous souhaitez donner à votre projet
 - Si vous souhaitez utiliser react-router
 
-Après avoir répondu à ces deux questions, votre projet sera créé à la racine du dossier principal, il ne vous restera plus qu'a le déplacer si vous le souhaitez, afin de mieux vous organiser, et vous pourrez commencerà travailler dessus.
+Après avoir répondu à ces deux questions, votre projet sera créé à la racine du dossier principal, il ne vous restera plus qu'a le déplacer si vous le souhaitez, afin de mieux vous organiser, et vous pourrez commencer à travailler dessus.
