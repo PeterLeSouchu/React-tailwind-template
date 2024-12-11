@@ -74,7 +74,7 @@ fi
 
 print_info "→ Copie des dossiers et des fichiers du template"
 shopt -s extglob
-rsync -av --quiet --exclude "INSTALL.md" --exclude "bin" --exclude ".git" --exclude "node_modules" \
+rsync -av --quiet --exclude "bin" --exclude ".git" --exclude "node_modules" \
   ./React-tailwind-template/ "$TARGET_DIRECTORY"
 
 if [ $? -eq 0 ]; then
