@@ -13,7 +13,7 @@ _Pour cela il comporte :_
 - 🧹 Un script permettant d'effacer tous les console.log
 - ✅ Un script permettant de vérifier la présence du fichier .env
   (s'il y en a un) dans le fichier .gitignore avant le commit, ce pour éviter de rendre public des donnés privées (car un oubli arrive très vite et ça peut être compliqué d'effacer un fichier .env de tous nos commit sur github).
-- Une configuration ES-Lint.
+- 📏 Une configuration ES-Lint.
 
 Pour créez un template, il vous faudra d'abord installer pnpm si ce n'est pas déja fait car il fonctionne avec ce gestionnaire de paquets :
 
@@ -75,3 +75,5 @@ print_success "✓ Hook pre-commit configuré"
 ```
 
 Ce dernier se situe dans '.git/hooks/pre-commit' et intervient avant chaque commit.
+
+📌 Ce template utilise actuellement ESLint version 8.57.1. Cependant, une nouvelle version est sortie en 2024. Pour l'instant, la configuration reste basée sur cette version d'ESLint, mais dès que cela sera possible, une migration vers ESLint 9 avec la configuration Airbnb sera effectuée. Cette migration n'est pas réalisable pour le moment, car la configuration Airbnb ne prend pas encore en charge la dernière version d'ESLint.
