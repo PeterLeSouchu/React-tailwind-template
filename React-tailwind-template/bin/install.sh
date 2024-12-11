@@ -98,7 +98,7 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import NotFound from './pages/NotFound';
-import App from './pages/App';
+import Home from './pages/Home';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -106,7 +106,7 @@ const root = ReactDOM.createRoot(
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />} errorElement={<NotFound />} />
+    <Route path="/" element={<Home />} errorElement={<NotFound />} />
   )
 );
 

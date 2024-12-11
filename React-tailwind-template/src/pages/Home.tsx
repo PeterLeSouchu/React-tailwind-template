@@ -10,39 +10,20 @@ function App() {
           className="w-1/6 min-w-20"
         />
       </div>
-      <header className="App-header">
+      <section className="App-header">
         <h1 className="font-nunito text-4xl text-center font-extrabold text-gray-700">
           Bienvenue sur le <span className="text-blue-400">React</span>
           -Tailwind-Template
         </h1>
         <p className="w-4/6 text-center text-gray-500 mx-auto my-10 text-xl">
-          Ce template a pour but de vous faire gagner du temps et propose donc
-          une configuration par défaut avec tailwind et eslint, vient s'ajouter
-          à ça des fonctions/script utilitaires.
+          Ce template React-Vite a pour but de vous faire gagner du temps et
+          propose donc une configuration par défaut avec tailwind / eslint,
+          vient s'ajouter à ça des fonctions/scripts utilitaires.
         </p>
-        <p className="w-4/6 text-center mx-auto my-10 text-lg text-gray-700">
-          Vous trouverez sur ce dernier :
+        <p className="text-center font-bold text-blue-500 text-xl">
+          Bon code :)
         </p>
-        <div className="mx-auto w-3/5 min-w-96">
-          <ul className="text-left px-4">
-            <li>- Une configuration tailwind, avec des fonts par défaut</li>
-            <li>
-              - Une fonction "formatDate" qui permet de convertir un timestamp
-              en date
-            </li>
-            <li> - Un composant Loader</li>
-            <li>
-              - Un composant ScrollToTop permettant de scroll a chaque debut de
-              page lors du changement de page
-            </li>
-            <li>- Un script permettant d'effacer tous les console.log</li>
-            <li>
-              - Un script permettant de vérifier la présence du fichier .env
-              (s'il y en a un) dans le fichier .gitignore lors du commit
-            </li>
-          </ul>
-        </div>
-      </header>
+      </section>
     </div>
   );
 }
