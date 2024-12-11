@@ -77,4 +77,4 @@ print_success "✓ Hook pre-commit configuré"
 
 Ce dernier se situe dans '.git/hooks/pre-commit' et intervient avant chaque commit.
 
-📌 Ce template utilise actuellement ESLint version 8.57.1. Cependant, une nouvelle version est sortie en 2024. Pour l'instant, la configuration reste basée sur cette version d'ESLint, mais dès que cela sera possible, une migration vers ESLint 9 avec la configuration Airbnb sera effectuée. Cette migration n'est pas réalisable pour le moment, car la configuration Airbnb ne prend pas encore en charge la dernière version d'ESLint.
+📌 Ce template utilise actuellement ESLint version 8.57.1. Cependant, une nouvelle version est sortie en 2024. Pour l'instant, la configuration reste basée sur cette version d'ESLint, mais dès que cela sera possible, une migration vers ESLint 9 avec la configuration Airbnb sera effectuée. Cette migration n'est pas réalisable pour le moment, car la configuration Airbnb ne prend pas encore en charge la dernière version d'ESLint. De plus, à l'avenir, le template sera plus flexible et vous permettra de choisir entre l'utilisation ou non d'ES-Lint pour votre projet.
