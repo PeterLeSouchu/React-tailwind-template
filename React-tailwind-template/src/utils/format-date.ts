@@ -3,7 +3,6 @@
  Example : 
   const timestamp = 2024-12-06 17:41:55.814945+00
   const date = formatDate(timestamp);
-  console.log(date);
   the nav return : 06/12/2024
   
 */
