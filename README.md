@@ -4,7 +4,7 @@
 
 #### L'objectif ici va être de copié tout ce qui se trouve dans le template "React-tailwind-template" afin de le coller dans un dossier, dossier qui vous servira à démarer un nouveau projet. Ce template a donc pour but de vous faire gagner du temps et de vous evitez à devoir configurer eslint/tailwind...
 
-_Pour cela ce dernier comporte :_
+_Pour cela il comporte :_
 
 - ✍️ Une configuration Tailwind CSS avec 3 fonts par défaut.
 - 📅 Une fonction "FormDate" qui permet de convertir un timestamp en date.
