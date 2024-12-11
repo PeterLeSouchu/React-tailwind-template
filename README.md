@@ -2,7 +2,7 @@
 
 ### 🎉 Bienvenue, vous trouverez ici un template react-vite préconfiguré avec tailwind, eslint et quelques fonctions/scripts utiles.
 
-##### L'objectif de ce dernier est de vous faire gagnez du temps et évitez d'avoir à configurer vous même votre projet.
+#### L'objectif de ce dernier est de vous faire gagnez du temps et évitez d'avoir à configurer vous même votre projet.
 
 _Pour cela ce dernier comporte :_
 
