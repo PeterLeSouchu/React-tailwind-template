@@ -141,15 +141,20 @@ EOF
     exit 1
   fi
 
-  # Remove Loader.tsx and ScrollToTop.tsx (reserve for react router)
-  for FILE in "Loader.tsx" "ScrollToTop.tsx"; do
-    if [ -f "$TARGET_DIRECTORY/src/components/$FILE" ]; then
-      rm "$TARGET_DIRECTORY/src/components/$FILE"
-      print_success "✓ Fichier '$FILE' supprimé"
-    else
-      print_error "❌ Fichier '$FILE' introuvable"
-    fi
-  done
+  # Remove ScrollToTop.tsx (reserve for react router)
+  FILE="ScrollToTop.tsx"
+  if [ -f "$TARGET_DIRECTORY/src/components/$FILE" ]; then
+    rm "$TARGET_DIRECTORY/src/components/$FILE"
+    print_success "✓ Fichier '$FILE' supprimé"
+  else
+    print_error "❌ Fichier '$FILE' introuvable"
+  fi
+
+  # Remove the react-router-dom package if not needed
+  print_info "→ Désinstallation de 'react-router-dom'"
+  cd "$TARGET_DIRECTORY"
+  pnpm remove react-router-dom
+  print_success "✓ 'react-router-dom' désinstallé"
 fi
 
 # Initialize Git

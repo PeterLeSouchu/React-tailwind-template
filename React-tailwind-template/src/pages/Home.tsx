@@ -27,14 +27,15 @@ function App() {
           <ul className="text-left px-4">
             <li>- Une configuration tailwind, avec des fonts par défaut</li>
             <li>
-              - Une fonction formatDate qui permet de convertir un timestamp en
-              date
+              - Une fonction "formatDate" qui permet de convertir un timestamp
+              en date
             </li>
             <li> - Un composant Loader</li>
             <li>
               - Un composant ScrollToTop permettant de scroll a chaque debut de
               page lors du changement de page
             </li>
+            <li>- Un script permettant d'effacer tous les console.log</li>
             <li>
               - Un script permettant de vérifier la présence du fichier .env
               (s'il y en a un) dans le fichier .gitignore lors du commit
