@@ -28,7 +28,7 @@ git clone git@github.com:PeterLeSouchu/React-tailwind-template.git
 
 Puis ouvrez le sur votre ordinateur.
 
-Mettez vous à la racine du projet, c'est à dire au dossier contenant le dossier intitulé "Reac-tailwind-template". C'est tès important de se mettre à la racine et non pas dans le dossier précédemment cité sinon le clonage ne fonctionnera pas. En effet l'objectif ici va être de copier ce template nomé "Reac-tailwind-template" afin de créer un nouveau projet à la racine du dossier principal, d'où l'intéret de bien être à la racine.
+Mettez vous à la racine du projet, c'est à dire au dossier contenant le dossier intitulé "Reac-tailwind-template". C'est tès important de se mettre à la racine et non pas dans le dossier précédemment cité sinon le clonage ne fonctionnera pas. En effet l'objectif ici va être de copier ce template nomé "Reac-tailwind-template" afin de créer un nouveau projet à la racine du dossier principal, d'où l'intéret de bien être à la racine, c'est à dire dans là ou se situe le fichier README.md.
 
 Pour en être sur faite cette commande :
 
@@ -36,7 +36,7 @@ Pour en être sur faite cette commande :
 ls
 ```
 
-Si vous voyer "React-tailwind-template" alors vous êtes bien positionné.
+Si vous voyez "React-tailwind-template" alors vous êtes bien positionné.
 Après cela lancez la commande :
 
 ```bash
