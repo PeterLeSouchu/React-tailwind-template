@@ -16,9 +16,11 @@ function App() {
           -Tailwind-Template
         </h1>
         <p className="w-4/6 text-center text-gray-500 mx-auto my-10 text-xl">
-          Ce template React-Vite a pour but de vous faire gagner du temps et
-          propose donc une configuration par défaut avec tailwind / eslint,
-          vient s'ajouter à ça des fonctions/scripts utilitaires.
+          Ce template React-Vite a pour but de vous faire gagner du temps en
+          évitant de configurer vous-même votre projet, ainsi ce dernier propose
+          une configuration par défaut avec tailwind / eslint et vient s'ajouter
+          à çela des fonctions/scripts utilitaires. Je vous laisse donc avec
+          celui-ci.
         </p>
         <p className="text-center font-bold text-blue-500 text-xl">
           Bon code :)
