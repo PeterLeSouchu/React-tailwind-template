@@ -2,7 +2,7 @@
 
 ### 🎉 Bienvenue, vous trouverez ici un template react-vite préconfiguré avec tailwind, eslint et quelques fonctions/scripts utiles.
 
-#### L'objectif ici va être de copié tout ce qui se trouve dans ce template afin de le coller dans un dossier, dossier qui vous servira à démarer un nouveau projet. Ce template a donc pour but de vous faire gagner du temps, de vous evitez de devoir configurer eslint/tailwind...
+#### L'objectif ici va être de copié tout ce qui se trouve dans le template "React-tailwind-template" afin de le coller dans un dossier, dossier qui vous servira à démarer un nouveau projet. Ce template a donc pour but de vous faire gagner du temps et de vous evitez à devoir configurer eslint/tailwind...
 
 _Pour cela ce dernier comporte :_
 
@@ -28,7 +28,7 @@ git clone git@github.com:PeterLeSouchu/React-tailwind-template.git
 
 Puis ouvrez le sur votre ordinateur.
 
-Mettez vous à la racine du projet, c'est à dire au dossier contenant le dossier intitulé "Reac-tailwind-template". C'est tès important de se mettre à la racine et non pas dans le dossier précédemment cité sinon le clonage ne fonctionnera pas. En effet l'objectif ici va être de copier ce template nomé "Reac-tailwind-template" afin de créer un nouveau projet à la racine du dossier principal, d'où l'intéret de bien être à la racine, c'est à dire dans là ou se situe le fichier README.md.
+Mettez vous à la racine du projet, c'est à dire au dossier contenant le dossier intitulé "Reac-tailwind-template". C'est tès important de se mettre à la racine et non pas dans le dossier précédemment cité, sinon le clonage ne fonctionnera pas.
 
 Pour en être sur faite cette commande :
 
