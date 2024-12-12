@@ -86,7 +86,7 @@ fi
 
 # Configure main.tsx based on React Router choice
 if [[ "$USE_REACT_ROUTER" == "y" ]]; then
-  print_info "→ Utilisation de React Router activée"
+  print_info "→ React Router activée"
   cat <<EOF > "$TARGET_DIRECTORY/src/main.tsx"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -117,7 +117,7 @@ root.render(
 );
 EOF
 else
-  print_info "→ Utilisation de React Router désactivée"
+  print_info "→ React Router désactivée"
   cat <<EOF > "$TARGET_DIRECTORY/src/main.tsx"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
