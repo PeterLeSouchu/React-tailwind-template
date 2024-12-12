@@ -7,14 +7,13 @@
 _Pour cela il comporte :_
 
 - ✍️ Une configuration Tailwind CSS avec 3 fonts par défaut.
-- 📏 Une configuration ES-Lint Airbnb.
+- 📏 Une configuration ESLint Airbnb.
 - 📅 Une fonction "FormDate" qui permet de convertir un timestamp en date.
 - 🔄 Un composant Loader par défaut (spinner).
 - ⬆️ Une fonction "ScrollToTop" permettant de scroll en haut de page (utile quand on utilise react-router).
 - 🧹 Un script permettant d'effacer tous les console.log
 - ✅ Un script permettant de vérifier la présence du fichier .env
   (s'il y en a un) dans le fichier .gitignore avant le commit, ce pour éviter de rendre public des donnés privées (car un oubli arrive très vite et ça peut être compliqué d'effacer un fichier .env de tous nos commit sur github).
-- 📏 Une configuration ES-Lint.
 
 Pour créez un template, il vous faudra d'abord installer pnpm si ce n'est pas déja fait car il fonctionne avec ce gestionnaire de paquets :
 
