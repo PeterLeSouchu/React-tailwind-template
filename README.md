@@ -14,10 +14,7 @@ _Pour cela il comporte :_
 - 🧹 Un script permettant d'effacer tous les console.log
 - ✅ Un script permettant de vérifier la présence du fichier .env
   (s'il y en a un) dans le fichier .gitignore avant le commit, ce pour éviter de rendre public des donnés privées (car un oubli arrive très vite et ça peut être compliqué d'effacer un fichier .env de tous nos commit sur github).
-<<<<<<< HEAD
 - 📏 Une configuration ES-Lint.
-=======
->>>>>>> 4ed97c301bdc91300836e58587c7c61b2e10f5c7
 
 Pour créez un template, il vous faudra d'abord installer pnpm si ce n'est pas déja fait car il fonctionne avec ce gestionnaire de paquets :
 
@@ -46,7 +43,7 @@ Si vous voyez "React-tailwind-template" alors vous êtes bien positionné.
 Après cela lancez la commande :
 
 ```bash
- ./React-tailwind-template/bin/install.sh
+ ./install.sh
 ```
 
 Cela permettra de lancer le script situé dans le template.
@@ -57,7 +54,7 @@ Il vous sera demandé deux choses :
 
 Après avoir répondu à ces deux questions, votre projet sera créé à la racine du dossier principal, il ne vous restera plus qu'a le déplacer si vous le souhaitez, afin de mieux vous organiser, et vous pourrez commencer à travailler dessus.
 
-⚠️ Attention lors de la création du dossier, le script initialise le projet avec un "git init" pour mettre en place une configuration qui permet de valider la présence du fichier '.env' dans le fichier '.gitignore' ! Ainsi si vous souahitez rattacher votre projet à un repo Github inutile faire un git init, il est déjà fait pour vous. ⚠️
+⚠️ Attention lors de la création du dossier, le script initialise le projet avec un "git init" pour mettre en place une configuration qui permet de valider la présence du fichier '.env' dans le fichier '.gitignore' ! Ainsi si vous souhaitez rattacher votre projet à un repo Github inutile faire un git init, il est déjà fait pour vous. ⚠️
 
 Voici la configuration mise en place pour vérifier la présence du fichier '.env' :
 
