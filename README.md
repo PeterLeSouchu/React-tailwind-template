@@ -45,7 +45,7 @@ Après cela lancez la commande :
  ./install.sh
 ```
 
-Cela permettra de lancer le script situé dans le template.
+Cela permettra de lancer le script situé lui aussi à la racine du projet.
 Il vous sera demandé deux choses :
 
 - Le nom que vous souhaitez donner à votre projet
