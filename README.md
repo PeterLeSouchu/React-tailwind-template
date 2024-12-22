@@ -7,6 +7,7 @@
 _Pour cela il comporte :_
 
 - ✍️ Une configuration Tailwind CSS avec 3 fonts par défaut.
+- 🛡️ Une configuration TypeScript intégrée.
 - 📏 Une configuration ESLint Airbnb.
 - 📅 Une fonction "FormDate" qui permet de convertir un timestamp en date.
 - 🔄 Un composant Loader par défaut (spinner).
