@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer base {
   /* montserrat-regular - latin */
@@ -32,7 +30,7 @@
   }
 }
 
-// CSS for spinner/loader
+/* // CSS for spinner/loader */
 .loader {
   width: 48px;
   height: 48px;
