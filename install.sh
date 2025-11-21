@@ -156,9 +156,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 );
 EOF
 
-  # Move Home.tsx to components/ and rename to App.tsx
+  # Move Home.tsx to components/ and rename to App.tsx, also rename the component
   if [ -f "$TARGET_DIRECTORY/src/pages/Home.tsx" ]; then
     mv "$TARGET_DIRECTORY/src/pages/Home.tsx" "$TARGET_DIRECTORY/src/components/App.tsx"
+    # Rename the component from Home to App
+    sed -i '' 's/function Home()/function App()/g' "$TARGET_DIRECTORY/src/components/App.tsx"
+    sed -i '' 's/export default Home;/export default App;/g' "$TARGET_DIRECTORY/src/components/App.tsx"
     print_success "✓ Composant 'Home' déplacé et renommé en 'App.tsx'"
     rm -rf "$TARGET_DIRECTORY/src/pages/"
   else

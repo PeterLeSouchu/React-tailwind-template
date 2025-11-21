@@ -1,6 +1,6 @@
-function App() {
+function Home() {
   return (
-    <div className="w-screen min-h-screen bg-gradient-to-br from-indigo-50 via-white to-blue-50 flex flex-col justify-center items-center px-6 py-16">
+    <div className="w-screen min-h-screen bg-linear-to-br from-indigo-50 via-white to-blue-50 flex flex-col justify-center items-center px-6 py-16">
       <div className="max-w-5xl w-full space-y-16">
         {/* Logos Section */}
         <div className="flex justify-center items-center gap-8 md:gap-12 flex-wrap">
@@ -38,12 +38,12 @@ function App() {
           <div className="space-y-4">
             <h1 className="font-nunito text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-800 leading-tight">
               Bienvenue sur le{' '}
-              <span className="bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
                 React
               </span>
               -Tailwind-Template
             </h1>
-            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-blue-400 to-transparent mx-auto"></div>
+            <div className="w-32 h-1 bg-linear-to-r from-transparent via-blue-400 to-transparent mx-auto"></div>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-6">
@@ -56,7 +56,7 @@ function App() {
           </div>
 
           <div className="pt-4">
-            <p className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
+            <p className="text-xl md:text-2xl font-bold bg-linear-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
               Bon code :)
             </p>
           </div>
@@ -66,4 +66,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
