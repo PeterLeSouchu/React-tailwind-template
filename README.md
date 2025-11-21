@@ -8,9 +8,9 @@ _Pour cela il comporte :_
 
 - ✍️ Une configuration Tailwind CSS avec 3 fonts par défaut.
 - 📏 Une configuration ESLint Airbnb.
-- 📅 Une fonction "FormDate" qui permet de convertir un timestamp en date.
-- 🔄 Un composant Loader par défaut (spinner).
-- ⬆️ Une fonction "ScrollToTop" permettant de scroll en haut de page (utile quand on utilise react-router).
+- 🛣️ La possibilité d'utiliser react router 7 avec une configuration déja en place.
+- 📡 La possibilité d'utiliser axios avec une instance pré-configurée.
+- 🔄 La possibilité d'utiliser react query (TanStack) avec une configuration déjà en place (Provider).
 - 🧹 Un script permettant d'effacer tous les console.log
 - ✅ Un script permettant de vérifier la présence du fichier .env
   (s'il y en a un) dans le fichier .gitignore avant le commit, ce pour éviter de rendre public des donnés privées (car un oubli arrive très vite et ça peut être compliqué d'effacer un fichier .env de tous nos commit sur github).
