@@ -48,7 +48,7 @@ Après cela lancez la commande :
 ```
 
 Cela permettra de lancer le script situé dans le template.
-Il vous sera demandé deux choses :
+Il vous sera demandé 4 questions :
 
 - Le nom que vous souhaitez donner à votre projet
 - Si vous souhaitez utiliser React-router
