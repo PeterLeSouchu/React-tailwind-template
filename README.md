@@ -4,7 +4,7 @@
 
 #### L'objectif ici va être de copié tout ce qui se trouve dans le template préconfiguré "React-tailwind-template" afin de le coller dans un dossier, dossier qui vous servira à démarer un nouveau projet. Ce template a donc pour but de vous faire gagner du temps et de vous evitez à devoir configurer eslint/tailwind... dans votre nouveau projet.
 
-#### Le template est maintenant disponible avec React V19 et Tailwind V4
+#### Le template est maintenant disponible avec React V19 et Tailwind V4.
 
 _Pour cela il comporte :_
 
@@ -51,7 +51,9 @@ Cela permettra de lancer le script situé dans le template.
 Il vous sera demandé deux choses :
 
 - Le nom que vous souhaitez donner à votre projet
-- Si vous souhaitez utiliser react-router
+- Si vous souhaitez utiliser React-router
+- Si vous souhaitez utiliser Axios
+- Si vous souhaitez utiliser React Query
 
 Après avoir répondu à ces deux questions, votre projet sera créé à la racine du dossier principal, il ne vous restera plus qu'a le déplacer si vous le souhaitez, afin de mieux vous organiser, et vous pourrez commencer à travailler dessus.
 
